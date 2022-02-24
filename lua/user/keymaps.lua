@@ -82,3 +82,6 @@ keymap("n", "<leader>po", "<cmd>lua require('telescope.builtin').oldfiles()<CR>"
 -- Nvimtree
 keymap("n", "<leader>n", ":NvimTreeToggle<cr>", opts)
 
+-- Test
+keymap("n", "<leader>t", ":TestNearest<cr>", opts)
+keymap("n", "<leader>tl", ":TestLast<cr>", opts)

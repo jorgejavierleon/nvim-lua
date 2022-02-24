@@ -54,6 +54,7 @@ return packer.startup(function(use)
   use 'goolord/alpha-nvim'
   use "vim-test/vim-test"
   use "akinsho/toggleterm.nvim"
+  use "preservim/vimux"
 
   -- Colorschemas
   use 'folke/tokyonight.nvim' -- coloschema
