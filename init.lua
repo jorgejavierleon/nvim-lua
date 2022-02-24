@@ -13,4 +13,6 @@ require "user.nvim-tree"
 require "user.bufferline"
 require "user.lualine"
 require "user.alpha"
+require "user.vim-test"
+require "user.toggleterm"
 

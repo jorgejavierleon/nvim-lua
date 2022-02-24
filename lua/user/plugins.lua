@@ -52,6 +52,8 @@ return packer.startup(function(use)
   use "moll/vim-bbye"
   use 'nvim-lualine/lualine.nvim'
   use 'goolord/alpha-nvim'
+  use "vim-test/vim-test"
+  use "akinsho/toggleterm.nvim"
 
   -- Colorschemas
   use 'folke/tokyonight.nvim' -- coloschema
