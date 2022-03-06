@@ -1,7 +1,7 @@
 -- :help options
 vim.opt.backup = false                          -- creates a backup file
 vim.opt.clipboard = "unnamedplus"               -- allows neovim to access the system clipboard
-vim.opt.cmdheight = 2                           -- more space in the neovim command line for displaying messages
+vim.opt.cmdheight = 1                           -- more space in the neovim command line for displaying messages
 vim.opt.completeopt = { "menuone", "noselect" } -- mostly just for cmp
 vim.opt.conceallevel = 0                        -- so that `` is visible in markdown files
 vim.opt.fileencoding = "utf-8"                  -- the encoding written to a file
@@ -41,4 +41,4 @@ vim.cmd "set whichwrap+=<,>,[,],h,l"
 vim.cmd [[set iskeyword+=-]]
 vim.cmd [[set formatoptions-=cro]] -- TODO: this doesn't seem to work
 
-vim.api.nvim_command('autocmd BufRead,BufNewFile *.htm,*.html,*.js,*.vue,*.json setlocal tabstop=2 shiftwidth=2 softtabstop=2')
+vim.api.nvim_command('autocmd BufRead,BufNewFile *.htm,*.html,*.js,*.vue,*.json,*.lua setlocal tabstop=2 shiftwidth=2 softtabstop=2')
