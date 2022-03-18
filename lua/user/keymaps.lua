@@ -73,7 +73,7 @@ keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
 -- Telescope --
 keymap("n", "<leader>ps", "<cmd>lua require('telescope.builtin').grep_string({ search = vim.fn.input('Grep For > ')})<CR>", opts)
 keymap("", "<C-p>", "<cmd>lua require('telescope.builtin').git_files()<CR>", opts)
-keymap("n", "<leader>pf", "<cmd>lua require('telescope.builtin').find_files()<CR>", opts)
+keymap("n", "<leader>pf", "<cmd>lua require('telescope.builtin').find_files({ hidden = true })<CR>", opts)
 keymap("n", "<leader>pw", "<cmd>lua require('telescope.builtin').grep_string { search = vim.fn.expand('<cword>') }<CR>", opts)
 keymap("n", "<leader>pb", "<cmd>lua require('telescope.builtin').buffers()<CR>", opts)
 keymap("n", "<leader>vh", "<cmd>lua require('telescope.builtin').help_tags()<CR>", opts)
