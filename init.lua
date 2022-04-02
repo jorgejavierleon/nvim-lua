@@ -16,4 +16,5 @@ require "user.alpha"
 require "user.vim-test"
 require "user.toggleterm"
 require "user.copilot"
+require "user.project"
 
